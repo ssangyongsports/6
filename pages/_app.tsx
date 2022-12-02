@@ -22,7 +22,7 @@ import { NavItems } from 'types';
 const navItems: NavItems = [
   { title: 'SLB', href: 'https://www.slbtw.cf/' },
   { title: 'SBA', href: 'https://www.sbatw.ml/' },
-  { title: '部落格', href: 'https://www.sbatw.ml/' },
+  { title: '部落格', href: '/blog' },
   { title: '聯絡', href: '/contact' },
   { title: '購買TV', href: '/pricing', outlined: true },
 ];
