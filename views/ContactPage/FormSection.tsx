@@ -29,7 +29,7 @@ export default function FormSection() {
       });
 
       if (res.status !== 204) {
-        setHasErrored(true);
+        setHasErrored(false);
       }
     } catch {
       setHasErrored(true);
