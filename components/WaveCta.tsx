@@ -21,14 +21,16 @@ export default function WaveCta() {
       </svg>
       <CtaWrapper>
         <Container>
-          <Title>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus delectus?</Title>
+          <Title>想要在網路看球賽?</Title>
           <CustomButtonGroup>
-            <Button onClick={() => setIsModalOpened(true)}>
-              Subscribe to the newsletter <span>&rarr;</span>
-            </Button>
+           <NextLink href="/pricing" passHref>
+              <OutlinedButton transparent>
+                購買雙龍體育TV <span>&rarr;</span>
+              </OutlinedButton>
+            </NextLink>
             <NextLink href="/features" passHref>
               <OutlinedButton transparent>
-                Features <span>&rarr;</span>
+                特徵 <span>&rarr;</span>
               </OutlinedButton>
             </NextLink>
           </CustomButtonGroup>
