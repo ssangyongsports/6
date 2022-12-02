@@ -1,6 +1,5 @@
 export default function Logo({ ...rest }) {
   return (
-    return (
     <Image
       loader={myLoader}
       src="https://img.ssangyongsports.eu.org/logo2.png"
