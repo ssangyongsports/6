@@ -20,7 +20,7 @@ export default function FormSection() {
 
   async function onSubmit(payload: EmailPayload) {
     try {
-      const res = await fetch('/api/sendEmail', {
+      const res = await fetch('https://send.pageclip.co/uLHUxztMTNIK2IljRIEgBJh6JVi7QruG/Site-contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
