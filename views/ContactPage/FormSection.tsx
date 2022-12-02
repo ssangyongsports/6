@@ -43,7 +43,8 @@ export default function FormSection() {
   const isDisabled = isSubmitting || isSent;
   const isSubmitDisabled = Object.keys(errors).length > 0 || isDisabled;
 
-  if (hasSuccessfullySentMail,hasErrored) {
+  if (hasSuccessfullySentMail) {
+    if (hasErrored) {
     return <MailSentState />;
   }
 
