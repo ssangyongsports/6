@@ -43,16 +43,16 @@ export default function NewsletterModal({ onClose }: NewsletterModalProps) {
                 {hasSignedUp && <MailSentState />}
                 {!hasSignedUp && (
                   <>
-                    <Title>Are you ready to enroll to the best newsletter ever?</Title>
+                    <Title>你想收到雙龍體育的最新消息嗎?</Title>
                     <Row>
                       <CustomInput
                         value={email}
                         onChange={(e: React.ChangeEvent<HTMLInputElement>) => setEmail(e.target.value)}
-                        placeholder="Enter your email..."
+                        placeholder="輸入電子郵件..."
                         required
                       />
                       <CustomButton as="button" type="submit" disabled={hasSignedUp}>
-                        Submit
+                        提交
                       </CustomButton>
                     </Row>
                     {message && <ErrorMessage dangerouslySetInnerHTML={{ __html: message as string }} />}
