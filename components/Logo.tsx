@@ -1,9 +1,10 @@
 export default function Logo({ ...rest }) {
   return (
 <img
-  className="fit-picture"
-  src="https://img.ssangyongsports.eu.org/logo2.png"
+  src="https://example.com/media/photo.jpg"
+  with={155}
+  heigh={40}
+  alt="一張圖片"
 />
-
   )
 }
