@@ -72,16 +72,7 @@ export default function Footer() {
               <a>
                 <EmailIcon size={50} round={true} />
               </a>
-            </NextLink>
-            <iframe
-  src="https://status.ssangyongsports.org/embed-status/light-md"
-  width={230}
-  height={61}
-  frameBorder={0}
-  scrolling="no"
-  style={{ border: "none" }}
-></iframe>
-
+            </NextLink>            
           </ShareBar>
           <Copyright>&copy; Copyright 2021 雙龍體育</Copyright>
         </BottomBar>
