@@ -74,8 +74,17 @@ export default function Footer() {
                 <LinkedinIcon size={50} round={true} />
               </a>
             </NextLink>
+            <iframe
+  src="https://status.ssangyongsports.org/embed-status/light-md"
+  width={230}
+  height={61}
+  frameBorder={0}
+  scrolling="no"
+  style={{ border: "none" }}
+></iframe>
+
           </ShareBar>
-          <Copyright>&copy; Copyright 2021 My Saas Startup</Copyright>
+          <Copyright>&copy; Copyright 2021 雙龍體育</Copyright>
         </BottomBar>
       </Container>
     </FooterWrapper>
