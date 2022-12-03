@@ -18,7 +18,7 @@ export default function Hero() {
         <Heading>我們的使命是將雙龍體育組成最棒體育組織</Heading>
         <CustomButtonGroup>
           <Button onClick={() => setIsModalOpened(true)}>
-            訂閱最新 <span>&rarr;</span>
+            訂閱最新消息 <span>&rarr;</span>
           </Button>
         </CustomButtonGroup>
       </Contents>
