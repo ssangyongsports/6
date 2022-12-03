@@ -9,8 +9,8 @@ import { getAllPosts } from 'utils/postsFetcher';
 export default function BlogIndexPage({ posts }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
     <Page
-      title="My SaaS Startup Blog"
-      description="Culpa duis reprehenderit in ex amet cillum nulla do in enim commodo. Sunt ut excepteur et est aliqua anim ea excepteur fugiat voluptate. Fugiat exercitation dolore laboris do quis consectetur eiusmod tempor consequat."
+      title="雙龍體育部落格"
+      description="歡迎來到雙龍體育BLOG,在此找到雙龍體育更新,新聞等..."
     >
       <CustomAutofitGrid>
         {posts.map((singlePost, idx) => (
