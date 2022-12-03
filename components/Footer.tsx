@@ -1,5 +1,5 @@
 import NextLink from 'next/link';
-import { FacebookIcon, EmailIcon, TwitterIcon } from 'react-share';
+import { EmailIcon, FacebookIcon, TwitterIcon } from 'react-share';
 import styled from 'styled-components';
 import Container from 'components/Container';
 import { media } from 'utils/media';
