@@ -44,14 +44,16 @@ export default function FormSection() {
   const isSubmitDisabled = Object.keys(errors).length > 0 || isDisabled;
 
   if (hasSuccessfullySentMail) {
-    if (hasErrored) {
+    return <MailSentState />;
+  }
+  
+  if (hasErrored) {
     return <MailSentState />;
   }
 
   return (
     <Wrapper>
       <Form onSubmit={handleSubmit(onSubmit)}>
-        
         <InputGroup>
           <InputStack>
             {errors.name && <ErrorMessage>Name is required</ErrorMessage>}
@@ -93,15 +95,12 @@ const Form = styled.form`
 const InputGroup = styled.div`
   display: flex;
   align-items: center;
-
   & > *:first-child {
     margin-right: 2rem;
   }
-
   & > * {
     flex: 1;
   }
-
   ${media('<=tablet')} {
     flex-direction: column;
     & > *:first-child {
@@ -114,7 +113,6 @@ const InputGroup = styled.div`
 const InputStack = styled.div`
   display: flex;
   flex-direction: column;
-
   & > *:not(:first-child) {
     margin-top: 0.5rem;
   }
