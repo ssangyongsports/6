@@ -4,7 +4,7 @@ import RichText from 'components/RichText';
 
 export default function ContactPage() {
   return (
-    <Page title="Privacy policy">
+    <Page tit服務條款服務條款">
       <PrivacyPolicyContainer>
         <RichText>
     <>
