@@ -25,7 +25,7 @@ export default function FormSection() {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ subject: 'Email from contact form', ...payload }),
+        body: JSON.stringify({ subject: '網站聯繫', ...payload }),
       });
 
       if (res.status !== 204) {
