@@ -24,7 +24,7 @@ const navItems: NavItems = [
   { title: 'SBA', href: 'https://www.sbatw.ml/' },
   { title: '部落格', href: '/blog' },
   { title: '聯絡', href: '/contact' },
-  { title: '購買TV', href: '/pricing', outlined: true },
+  { title: '訂閱', href: '&rarr;', outlined: true },
 ];
 
 const TinaCMS = dynamic(() => import('tinacms'), { ssr: false });
