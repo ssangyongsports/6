@@ -41,7 +41,7 @@ export default function MailSentState() {
           fill="#1673ff"
         />
       </svg>
-      <p>感謝你的!</p>
+      <p>感謝你的提交!</p>
     </Wrapper>
   );
 }
