@@ -18,7 +18,6 @@ import NewsletterModal from 'components/NewsletterModal';
 import WaveCta from 'components/WaveCta';
 import { NewsletterModalContextProvider, useNewsletterModalContext } from 'contexts/newsletter-modal.context';
 import { NavItems } from 'types';
-import ChatwootWidget from '../components/ChatwootWidget'
 
 
 const navItems: NavItems = [
@@ -50,8 +49,6 @@ function MyApp({ Component, pageProps }: AppProps) {
       </Head>
       <ColorModeScript />
       <GlobalStyle />
-    <ChatwootWidget />
-
       <Providers>
         <Modals />
         <Navbar items={navItems} />
