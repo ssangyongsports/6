@@ -6,7 +6,6 @@ import Link from 'components/Link';
 import { EnvVars } from 'env';
 import { getAllPosts } from 'utils/postsFetcher';
 import Cta from 'views/HomePage/Cta';
-import FeaturesGallery from 'views/HomePage/FeaturesGallery';
 import Hero from 'views/HomePage/Hero';
 import ScrollableBlogPosts from 'views/HomePage/ScrollableBlogPosts';
 
@@ -36,7 +35,6 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
         </WhiteBackgroundContainer>
         <DarkerBackgroundContainer>
           <Cta />
-          <FeaturesGallery />
           <ScrollableBlogPosts posts={posts} />
         </DarkerBackgroundContainer>
       </HomepageWrapper>
