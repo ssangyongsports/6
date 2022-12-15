@@ -13,8 +13,8 @@ export default function Cta() {
     <CtaWrapper>
       <Container>
         <Stack>
-          <OverTitle>想要看球賽?</OverTitle>
-          <SectionTitle>what to buy ticket</SectionTitle>
+          <OverTitle>what to buy ticket</OverTitle>
+          <SectionTitle>想要看球賽?</SectionTitle>
           <Description>
             立刻上購物網購買!
           </Description>
