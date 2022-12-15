@@ -17,6 +17,7 @@ export default function Cta() {
           <SectionTitle>想要看球賽?</SectionTitle>
           <Description>
             立刻上購物網購買!
+            在網站買票打折喔!
           </Description>
           <ButtonGroup>
             <NextLink href="https://ssangyongsports.easy.co/" passHref>
