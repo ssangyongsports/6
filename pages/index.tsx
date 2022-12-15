@@ -24,7 +24,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
       <HomepageWrapper>
         <WhiteBackgroundContainer>
           <Hero />
-          <BasicSection imageUrl="/1.svg" title="雙龍職棒" overTitle="SLB">
+          <BasicSection imageUrl="/12.png" title="雙龍職棒" overTitle="SLB">
             <p>
  棒球，（英語：Baseball、日韓稱為野球），為一種團體球類運動，由人數最少為9人的两支队伍在一個扇形的球場进行攻擊與守備。棒球球員分為攻...
             </p>
