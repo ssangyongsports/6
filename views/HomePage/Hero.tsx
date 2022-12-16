@@ -15,7 +15,7 @@ export default function Hero() {
     <HeroWrapper>
       <Contents>
         <CustomOverTitle>ssangyong sports</CustomOverTitle>
-        <Heading>我們的使命是將雙龍體育組成最棒體育組織</Heading>
+        <Heading><span style={{ color: "orange" }}>文字顏色為橘色</span>我們的使命是將雙龍體育組成最棒體育組織</Heading>
         <CustomButtonGroup>
           <Button onClick={() => setIsModalOpened(true)}>
             訂閱最新消息 <span>&rarr;</span>
