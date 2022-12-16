@@ -10,7 +10,7 @@ export default function NotFoundPage() {
           <NotFoundIllustration />
         </ImageContainer>
         <Title>404</Title>
-        <Description>Oh, that&apos;s unfortunate! Page not found 😔</Description>
+        <Description>抱歉，沒有此頁面😔</Description>
       </Container>
     </Wrapper>
   );
