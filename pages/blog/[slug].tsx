@@ -55,8 +55,8 @@ export default function SingleArticlePage(props: InferGetStaticPropsType<typeof 
   if (!data) {
     return null;
   }
-  const { title, description, date, tags, imageUrl, author } = data.getPostsDocument.data as NonNullableChildrenDeep<Posts>;
-  const meta = { title, description, date: date, tags, imageUrl, author };
+  const { title, description, date, tags, imageUrl } = data.getPostsDocument.data as NonNullableChildrenDeep<Posts>;
+  const meta = { title, description, date: date, tags, imageUrl, author: '' };
   const formattedDate = formatDate(new Date(date));
   const absoluteImageUrl = imageUrl.replace(/\/+/, '/');
   return (
@@ -126,7 +126,6 @@ export async function getStaticProps({ params }: GetStaticPropsContext<{ slug: s
           title
           description
           date
-    .     author
           tags
           imageUrl
           body
@@ -149,7 +148,6 @@ const CustomContainer = styled(Container)`
   position: relative;
   max-width: 90rem;
   margin: 10rem auto;
-
   ${media('<=tablet')} {
     margin: 5rem auto;
   }
