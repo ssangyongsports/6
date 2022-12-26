@@ -74,7 +74,6 @@ export default function SingleArticlePage(props: InferGetStaticPropsType<typeof 
         <Header title={title} formattedDate={formattedDate} imageUrl={absoluteImageUrl} readTime={readTime} />
         <MDXRichText content={content} />
       </CustomContainer>
-      65
     </>
   );
 }
@@ -127,7 +126,6 @@ export async function getStaticProps({ params }: GetStaticPropsContext<{ slug: s
           title
           description
           date
-          author
           tags
           imageUrl
           body
