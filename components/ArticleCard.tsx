@@ -8,6 +8,7 @@ export interface ArticleCardProps {
   slug: string;
   imageUrl: string;
   description: string;
+  date: string;
 }
 
 export default function ArticleCard({ title, date, slug, imageUrl, description }: ArticleCardProps) {
