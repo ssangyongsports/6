@@ -74,6 +74,7 @@ export default function SingleArticlePage(props: InferGetStaticPropsType<typeof 
         <Header title={title} formattedDate={formattedDate} imageUrl={absoluteImageUrl} readTime={readTime} />
         <MDXRichText content={content} />
       </CustomContainer>
+      65
     </>
   );
 }
