@@ -18,6 +18,7 @@ export default function BlogIndexPage({ posts }: InferGetStaticPropsType<typeof 
             key={singlePost.slug}
             title={singlePost.meta.title}
             description={singlePost.meta.description}
+            date={singlePost.meta.date}
             imageUrl={singlePost.meta.imageUrl}
             slug={singlePost.slug}
           />
