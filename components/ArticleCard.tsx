@@ -106,3 +106,13 @@ const Description = styled.p`
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 5;
 `;
+const Date = styled.p`
+  font-size: 1.6rem;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  opacity: 0.6;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+`;
