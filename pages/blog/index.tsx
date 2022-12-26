@@ -15,10 +15,10 @@ export default function BlogIndexPage({ posts }: InferGetStaticPropsType<typeof 
       <CustomAutofitGrid>
         {posts.map((singlePost, idx) => (
           <ArticleCard
+             date={singlePost.meta.date}
             key={singlePost.slug}
             title={singlePost.meta.title}
             description={singlePost.meta.description}
-            date={singlePost.meta.date}
             imageUrl={singlePost.meta.imageUrl}
             slug={singlePost.slug}
           />
