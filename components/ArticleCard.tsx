@@ -10,7 +10,7 @@ export interface ArticleCardProps {
   description: string;
 }
 
-export default function ArticleCard({ title, slug, imageUrl, description }: ArticleCardProps) {
+export default function ArticleCard({ title, date, slug, imageUrl, description }: ArticleCardProps) {
   return (
     <NextLink href={'/blog/' + slug} passHref>
       <ArticleCardWrapper className="article-card-wrapper">
@@ -21,6 +21,7 @@ export default function ArticleCard({ title, slug, imageUrl, description }: Arti
           <Content>
             <Title>{title}</Title>
             <Description>{description}</Description>
+            <date>{date}</date>
           </Content>
         </HoverEffectContainer>
       </ArticleCardWrapper>
