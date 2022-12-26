@@ -22,7 +22,7 @@ export default function ArticleCard({ title, date, slug, imageUrl, description }
           <Content>
             <Title>{title}</Title>
             <Description>{description}</Description>
-            <Date>{date}</Date>
+            <Date>發布日期{date}</Date>
           </Content>
         </HoverEffectContainer>
       </ArticleCardWrapper>
