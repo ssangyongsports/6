@@ -6,12 +6,12 @@ export default function AuthorCard({ author }) {
       <div className="flex flex-wrap items-start sm:space-x-6 sm:flex-nowrap">
         <div className="relative flex-shrink-0 w-24 h-24 mt-1 ">
           {imageProps && (
-            <Image
-              src={https://i.ibb.co/LxrqRtB/1-1.png}
+           <Image
+              src={imageProps.src}
               loader={imageProps.loader}
-              blurDataURL={https://i.ibb.co/LxrqRtB/1-1.png}
+              blurDataURL={imageProps.blurDataURL}
               objectFit="cover"
-              alt=Peter yang
+              alt={author.name}
               placeholder="blur"
               layout="fill"
               className="rounded-full"
