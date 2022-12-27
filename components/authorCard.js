@@ -7,7 +7,6 @@ export default function AuthorCard() {
         <div className="relative flex-shrink-0 w-24 h-24 mt-1 ">
           
                 <Image
-                 loader={myLoader}
                  src="i.ibb.co/LxrqRtB/1-1.png"
               objectFit="cover"
               alt="Peter yang"
