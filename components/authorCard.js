@@ -10,7 +10,7 @@ export default function AuthorCard() {
                  loader={myLoader}
                  src="i.ibb.co/LxrqRtB/1-1.png"
               objectFit="cover"
-              alt=Peter yang
+              alt="Peter yang"
               placeholder="blur"
               layout="fill"
               className="rounded-full"
