@@ -5,13 +5,12 @@ export default function AuthorCard() {
     <div className="px-8 py-8 mt-3 text-gray-500 rounded-2xl bg-gray-50 dark:bg-gray-900 dark:text-gray-400">
       <div className="flex flex-wrap items-start sm:space-x-6 sm:flex-nowrap">
         <div className="relative flex-shrink-0 w-24 h-24 mt-1 ">
-          {imageProps && (
           
                 <Image
                  loader={myLoader}
                  src="i.ibb.co/LxrqRtB/1-1.png"
               objectFit="cover"
-              alt={author.name}
+              alt=Peter yang
               placeholder="blur"
               layout="fill"
               className="rounded-full"
