@@ -7,9 +7,9 @@ export default function AuthorCard({ author }) {
         <div className="relative flex-shrink-0 w-24 h-24 mt-1 ">
           {imageProps && (
             <Image
-              src=https://i.ibb.co/LxrqRtB/1-1.png
+              src={https://i.ibb.co/LxrqRtB/1-1.png}
               loader={imageProps.loader}
-              blurDataURL=https://i.ibb.co/LxrqRtB/1-1.png
+              blurDataURL={https://i.ibb.co/LxrqRtB/1-1.png}
               objectFit="cover"
               alt=Peter yang
               placeholder="blur"
