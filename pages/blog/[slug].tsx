@@ -15,7 +15,7 @@ import OpenGraphHead from 'views/SingleArticlePage/OpenGraphHead';
 import ShareWidget from 'views/SingleArticlePage/ShareWidget';
 import StructuredDataHead from 'views/SingleArticlePage/StructuredDataHead';
 import { Posts, PostsDocument, Query } from '.tina/__generated__/types';
-import AuthorCard from "components/authorCard";
+import introduce from "components/authorCard";
 
 export default function SingleArticlePage(props: InferGetStaticPropsType<typeof getStaticProps>) {
   const contentRef = useRef<HTMLDivElement | null>(null);
@@ -75,7 +75,7 @@ export default function SingleArticlePage(props: InferGetStaticPropsType<typeof 
         <Header title={title} formattedDate={formattedDate} imageUrl={absoluteImageUrl} readTime={readTime} />
         <MDXRichText content={content} />
       </CustomContainer>
-      <AuthorCard />
+      <introduce />
     </>
   );
 }
