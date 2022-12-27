@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import FaqSection from 'views/PricingPage/FaqSection';
 import PricingTablesSection from 'views/PricingPage/PricingTablesSection';
+import Head from 'next/head';
 
 export default function PricingPage() {
   return (
