@@ -15,7 +15,7 @@ export default function AuthorCard() {
               layout="fill"
               className="rounded-full"
             />
-          )}
+        
         </div>
         <div>
           <div className="mb-3">
