@@ -6,7 +6,7 @@ export default function AuthorCard({ author }) {
       <div className="flex flex-wrap items-start sm:space-x-6 sm:flex-nowrap">
         <div className="relative flex-shrink-0 w-24 h-24 mt-1 ">
           {imageProps && (
-           <Image
+          
                 <Image
                  loader={myLoader}
                  src="i.ibb.co/LxrqRtB/1-1.png"
