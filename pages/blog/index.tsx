@@ -26,6 +26,8 @@ export default function BlogIndexPage({ posts }: InferGetStaticPropsType<typeof 
           />
         ))}
       </CustomAutofitGrid>
+                </ul>
+
     </Page>
   );
 }
