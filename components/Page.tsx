@@ -23,7 +23,6 @@ export default function Page({ title, description, children }: PropsWithChildren
         <HeaderContainer>
           <Container>
             <Title>{title}</Title>
-            {description && <Description>{description}</Description>}
           </Container>
         </HeaderContainer>
         <Container>
