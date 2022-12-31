@@ -13,6 +13,8 @@ export default function BlogIndexPage({ posts }: InferGetStaticPropsType<typeof 
       description="歡迎來到雙龍體育BLOG,在此找到雙龍體育更新,新聞等..."
     >
       <CustomAutofitGrid>
+                          <ul className={utilStyles.list}>
+
         {posts.map((singlePost, idx) => (
           <ArticleCard
              date={singlePost.meta.date}
